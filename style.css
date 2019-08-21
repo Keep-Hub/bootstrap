@@ -1,0 +1,26 @@
+ .demo {
+
+    height: 100vh;
+    color: black;
+    -webkit-font-soomthing:antialiased;
+}
+.demo >.row{
+    background: #021d51;
+    border-bottom: 1px solid #000;
+}
+.demo >.row >div>span{
+    display: block; background: #487bdd;
+    color: white;
+    font-size: 32px;
+    padding: 8px;
+    border-bottom: 1px solid #021d51;
+}
+a{
+    display: block;
+    margin: 0 10px
+}
+.aa{
+    color: white;
+    width: 100%;
+    text-align: center;
+}

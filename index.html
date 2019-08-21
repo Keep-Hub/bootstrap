@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>bootstrap4</title>
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@4.0.0-beta.2/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/animated-border.css">
+    <script src="https://unpkg.com/jquery@1.12.1/dist/jquery.js"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"></script>
+    <script src="https://unpkg.com/bootstrap@4.0.0-beta.2/dist/js/bootstrap.js"></script>
+</head>
+<body>
+        <div>
+            <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <p class="aa">首页</p>
+                        <p class="aa">详情</p>
+                        <p class="aa">联系我们</p>
+                    </ul>
+                </div>
+            </nav>
+            <br>
+
+            <div class="container">
+                <h3>折叠导航栏</h3>
+                <p>通常，小屏幕上我们都会折叠导航栏，通过点击来显示导航选项。</p>
+                <p>提示: 如果你删除 .navbar-expand-md 类，导航链接会一直隐藏，且切换按钮会一直显示。</p>
+            </div>
+        </div>
+<div id="cs">123</div>
+</body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $('#cs').click ( function () {
+        alert(1)
+    })
+})
+</script>
+</html>
